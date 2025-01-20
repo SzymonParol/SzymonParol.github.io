@@ -45,7 +45,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 ## Professional Experience 💼
 
 ### Junior Media Engineer
-**[Your Company Name]**  
+**Iyuno A/S**  
 *05, 2023 – Present*
 
 - Developed workflows using IBM Orchestrator to streamline processes.
@@ -54,7 +54,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 - Collaborated with a team of developers and automation engineers.
 
 ### Maintenance Department Intern
-**ArcelorMittal, Warsaw**  
+**ArcelorMittal Warszawa Sp. z o.o. **  
 *07,2022 – 09, 2022*
 
 - Assisted automation engineers in maintaining and optimizing production processes.
@@ -65,7 +65,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 ### Master of Science in Mechatronics
 **Warsaw University of Technology, Faculty of Mechatronics**  
-*[2023] – 2025*
+*2023 – Present*
 
 ### Bachelor of Engineering in Mechatronics
 **Warsaw University of Technology, Faculty of Mechatronics**  
@@ -74,8 +74,6 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 ## Projects 🚧
 
 *Coming soon! I'm working on several exciting projects that I'll be adding to my portfolio shortly. Stay tuned!*
-
-![Projects](https://your-image-url.com/projects-placeholder.png)
 
 ## Hobbies & Interests 🎨
 
@@ -87,9 +85,8 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 Feel free to reach out to me through the following channels:
 
-- **Email:** [szymon.parol@example.com](mailto:szymon.parol@example.com)
-- **LinkedIn:** [linkedin.com/in/szymonparol](https://linkedin.com/in/szymonparol)
-- **GitHub:** [github.com/szymonparol](https://github.com/szymonparol)
+- **Email:** [szymon.parol@outlook.com](mailto:szymon.parol@outlook.com)
+- **LinkedIn:** [linkedin.com/in/szymon-parol-b2b952106](https://linkedin.com/in/szymon-parol-b2b952106)
 
 ---
 
