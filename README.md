@@ -1,6 +1,5 @@
 # Szymon Parol 🚀
 
-![Mechatronics](https://img.shields.io/badge/Mechatronics-Engineering-blue)
 ![Programmer](https://img.shields.io/badge/Programmer-C%2B%2B%20|%20C%23%20|%20Python-brightgreen)
 
 ## About Me
