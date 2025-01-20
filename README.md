@@ -9,8 +9,6 @@ Hello! I'm **Szymon Parol**, a passionate Mechatronics Engineer in my final year
 
 For the past two years, I've been working as a **Junior Media Engineer**, where I develop workflows using IBM Orchestrator, create web applications in C#, and maintain and test these applications.
 
-![Engineering](https://your-image-url.com/engineering-image.png)
-
 ## Skills 💡
 
 ### Programming Languages
@@ -48,7 +46,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 ### Junior Media Engineer
 **[Your Company Name]**  
-*[Month, Year] – Present*
+*05, 2023 – Present*
 
 - Developed workflows using IBM Orchestrator to streamline processes.
 - Created and maintained web applications in C#.
@@ -57,7 +55,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 ### Maintenance Department Intern
 **ArcelorMittal, Warsaw**  
-*[Month, Year] – [Month, Year]*
+*07,2022 – 09, 2022*
 
 - Assisted automation engineers in maintaining and optimizing production processes.
 - Participated in automation projects to improve efficiency.
@@ -67,11 +65,11 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 ### Master of Science in Mechatronics
 **Warsaw University of Technology, Faculty of Mechatronics**  
-*[Start Year] – 2025*
+*[2023] – 2025*
 
 ### Bachelor of Engineering in Mechatronics
 **Warsaw University of Technology, Faculty of Mechatronics**  
-*[Start Year] – [End Year]*
+*2018 – 2023*
 
 ## Projects 🚧
 
@@ -97,4 +95,3 @@ Feel free to reach out to me through the following channels:
 
 Thank you for visiting my portfolio! If you have any questions or would like to collaborate, don't hesitate to get in touch.
 
-![Thank You](https://your-image-url.com/thank-you.png)
