@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --light-green: #40E0D0; /* Updated to neon green */
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -150,7 +150,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--light-green); /* Changed to neon green */
     margin: var(--gutter-small) 0;
 }
 
@@ -201,7 +201,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--pink);
+    outline: 2px solid var(--light-green); /* Changed to neon green */
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -210,7 +210,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--pink);
+    color: var(--light-green); /* Changed to neon green */
 }
 
 .btn {
@@ -219,7 +219,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid var(--light-green); /* Changed to neon green */
     font-weight: 400;
 }
 
@@ -243,20 +243,20 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--pink);
+    background: var(--light-green); /* Changed to neon green */
 }
 
-.btn--pink {
-    background: var(--pink);
+.btn--green { /* Renamed from btn--pink */
+    background: var(--light-green);
     transition: all 0.2s;
 }
 
-.btn--pink::after {
+.btn--green::after {
     display: none;
 }
 
-.btn--pink:hover,
-.btn--pink:focus {
+.btn--green:hover,
+.btn--green:focus {
     background: transparent;
 }
 
@@ -266,7 +266,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--light-green); /* Changed to neon green */
 }
 
 .link__text::after {
@@ -289,7 +289,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--pink);
+    background: var(--light-green); /* Changed to neon green */
 }
 
 .link__text span {
@@ -308,7 +308,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--pink);
+    background-color: var(--light-green); /* Changed to neon green */
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -385,18 +385,18 @@ body:not(.user-is-tabbing) a:focus {
     right: 100%;
     display: inline-block;
     height: 1rem;
-    background: var(--white);
+    background: var(--light-green); /* Changed to neon green */
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
 .nav__link:hover {
-    color: var(--pink);
+    color: var(--light-green); /* Changed to neon green */
 }
 
 .nav__link:hover::after {
-    right: 0;
+    background: var(--light-green); /* Changed to neon green */
     height: 2px;
-    background: var(--pink);
+    right: 0;
 }
 
 /* --------------------------------------- */
@@ -437,71 +437,122 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
-/* ----- Work ----- */
+/* ----- project ----- */
 /* --------------------------------------- */
 
-.work__box {
+.project__box {
     display: flex;
     align-items: center;
 }
 
 @media(max-width: 900px) {
-    .work__box {
+    .project__box {
         align-items: initial;
         flex-direction: column-reverse;
     }
 }
 
-.work__box:not(:last-child) {
+.project__box:not(:last-child) {
     margin-bottom: 25rem;
 }
 
 @media(max-width: 500px) {
-    .work__box:not(:last-child) {
+    .project__box:not(:last-child) {
         margin-bottom: 20rem;
     }
 }
 
-.work__links {
+.project__links {
     display: flex;
     align-items: center;
 }
 
-.work__text {
+.project__text {
     flex: 0 0 30%;
 }
 
-.work__list {
+.project__list {
     /* list-style-type: square; */
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
 
-.work__code {
+.project__code {
     display: block;
     height: 3rem;
     margin-left: var(--gutter-normal);
     transition: all .3s;
 }
 
-.work__code:hover {
+.project__code:hover {
     transform: scale(1.2);
 }
 
-.work__image-box {
+.project__image-box {
     margin-bottom: var(--gutter-normal);
 }
 
 @media(min-width: 901px) {
-    .work__image-box {
+    .project__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
     }
 }
 
 @media(max-width: 900px) {
-    .work__code {
+    .project__code {
         height: 4rem;
+    }
+}
+
+.project__image-box {
+    flex: 1 1 40%;
+    text-align: center;
+    padding: 10px;
+}
+
+.project__image {
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    max-width: 100%;
+    border-radius: 50%; /* Makes the image circular */
+    width: 600px; /* Increased from 200px to 600px */
+    height: 600px; /* Increased from 200px to 600px */
+    border: 5px solid var(--light-green); /* Neon green border */
+    transition: transform 0.3s;
+}
+
+figure:hover figcaption {
+    color: #000; /* Change caption color on hover */
+}
+
+figure:hover img {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project__box {
+        flex-direction: column;
+    }
+    
+    .project__text, .project__image-box {
+        flex: 1 1 100%;
+    }
+
+    .project__text {
+        padding: 10px;
+    }
+
+    .project__image {
+        width: 300px; /* Adjust size for medium screens */
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .project__image {
+        width: 200px; /* Adjust size for small screens */
+        height: 200px;
     }
 }
 
@@ -611,3 +662,266 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+/* --------------------------------------- */
+/* ----- Figure and Figcaption Styling ----- */
+/* --------------------------------------- */
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.8rem; /* Smaller text */
+    color: #555;        /* Adjust color as needed */
+    text-align: center; /* Center the caption */
+    font-style: italic; /* Italicize the caption */
+    margin-top: 8px;    /* Spacing above the caption */
+}
+
+/* Make images circular and larger with neon green border */
+.project__image-box {
+    flex: 1 1 40%;
+    text-align: center;
+    padding: 10px;
+}
+
+.project__image {
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    max-width: 100%;
+    border-radius: 50%; /* Makes the image circular */
+    width: 600px; /* Increased from 200px */
+    height: 600px; /* Increased from 200px */
+    border: 5px solid var(--light-green); /* Neon green border */
+    transition: transform 0.3s;
+}
+
+figure:hover figcaption {
+    color: #000; /* Change caption color on hover */
+}
+
+figure:hover img {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project__box {
+        flex-direction: column;
+    }
+    
+    .project__text, .project__image-box {
+        flex: 1 1 100%;
+    }
+
+    .project__text {
+        padding: 10px;
+    }
+
+    .project__image {
+        width: 300px; /* Adjust size for medium screens */
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .project__image {
+        width: 200px; /* Adjust size for small screens */
+        height: 200px;
+    }
+}
+
+/* --------------------------------------- */
+/* ----- About ----- */
+/* --------------------------------------- */
+
+.about__content {
+    display: flex;
+    flex-direction: column; /* Ustawienie układu w kolumnie */
+    align-items: center;    /* Wyśrodkowanie elementów */
+    text-align: center;     /* Wyśrodkowanie tekstu */
+}
+
+.about__photo-container {
+    margin-bottom: var(--gutter-normal);
+}
+
+.about__photo {
+    /* Stylizacja zdjęcia */
+    object-fit: cover;          /* Upewnienie się, że zdjęcie wypełnia kontener bez zniekształceń */
+    border-radius: 50%;         /* Obramowanie zdjęcia w kształcie koła */
+    width: 300px;               /* Szerokość zdjęcia */
+    height: 300px;              /* Wysokość zdjęcia */
+    border: 5px solid var(--light-green); /* Neonowo zielone obramowanie */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  Subtelny cień dla efektu głębi 
+    transition: transform 0.3s, box-shadow 0.3s;  Płynne przejścia przy najechaniu */
+}
+
+.about__photo:hover {
+    transform: scale(1.05); /* Lekko powiększenie zdjęcia przy najechaniu */
+    /*box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);  Intensyfikacja cienia przy najechaniu */
+}
+
+.about__text {
+    width: 100%;               /* Tekst zajmuje całą szerokość */
+    max-width: 800px;          /* Maksymalna szerokość tekstu */
+    padding: 0 1rem;           /* Odstępy wewnętrzne */
+}
+
+.about__text p {
+    margin-bottom: 2rem;       /* Odstęp poniżej paragrafu */
+    font-size: 1.8rem;         /* Rozmiar czcionki paragrafu */
+    line-height: 1.6;          /* Wysokość linii dla lepszej czytelności */
+}
+
+@media(max-width: 768px) {
+    .about__photo {
+        width: 200px;           /* Mniejszy rozmiar zdjęcia na tabletach */
+        height: 200px;
+    }
+}
+
+@media(max-width: 500px) {
+    .about__photo {
+        width: 150px;           /* Jeszcze mniejszy rozmiar na smartfonach */
+        height: 150px;
+    }
+    
+    .about__text {
+        padding: 0 0.5rem;      /* Mniejsze odstępy wewnętrzne na małych ekranach */
+    }
+    
+    .about__text p {
+        font-size: 1.6rem;      /* Nieco mniejszy rozmiar czcionki na małych ekranach */
+    }
+}
+
+/* --------------------------------------- */
+/* ----- Work ----- */
+/* --------------------------------------- */
+
+.work__boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; /* Odstęp między poszczególnymi pozycjami pracy */
+}
+
+.work__box {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* Usunięto tło i zaokrąglenie narożników */
+    padding: 2rem;
+    transition: background-color 0.3s;
+}
+
+.work__box:hover {
+    
+}
+
+.work__image-box {
+    flex: 0 0 150px; /* Stała szerokość kontenera z obrazkiem */
+    text-align: center;
+}
+
+.work__image-box figure {
+    margin: 0;
+}
+
+.work__image-box img {
+    width: 150px; /* Zmniejszony rozmiar z 600px do 150px */
+    height: 150px; /* Zmniejszony rozmiar z 600px do 150px */
+    object-fit: cover; /* Zapewnienie, że obrazek wypełnia kontener bez zniekształceń */
+    border-radius: 50%; /* Okrągłe zdjęcie */
+    border: 3px solid var(--light-green); /* Neonowo zielone obramowanie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtelny cień */
+    transition: transform 0.3s, box-shadow 0.3s; /* Płynne przejścia przy najechaniu */
+}
+
+.work__image-box img:hover {
+    transform: scale(1.05); /* Lekko powiększenie przy najechaniu */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Intensyfikacja cienia przy najechaniu */
+}
+
+.work__text {
+    flex: 1;
+    min-width: 250px;
+    padding-right: 2rem; /* Dodatkowe odstępy po prawej stronie, aby tekst zaczynał się bliżej lewej */
+}
+
+.work__text h3 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--light-green); /* Neonowo zielony kolor tytułu */
+}
+
+.work__duration {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--white-1);
+}
+
+.work__description {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.work__list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: var(--white);
+}
+
+.work__list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .work__box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .work__image-box {
+        flex: none;
+    }
+
+    .work__text {
+        min-width: 100%;
+        padding-right: 0; /* Usunięcie odstępu po prawej na mniejszych ekranach */
+    }
+
+    .work__image-box img {
+        width: 200px; /* Zwiększenie rozmiaru na tabletach */
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .work__image-box img {
+        width: 120px; /* Dalsze zmniejszenie rozmiaru na smartfonach */
+        height: 120px;
+    }
+
+    .work__text h3 {
+        font-size: 2rem;
+    }
+
+    .work__description {
+        font-size: 1.6rem;
+    }
+
+    .work__list li {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
