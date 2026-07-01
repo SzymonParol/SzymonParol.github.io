@@ -4,9 +4,9 @@
 
 ## About Me
 
-Hello! I'm **Szymon Parol**, a passionate Mechatronics Engineer in my final year of a Master's program at the Warsaw University of Technology. I hold a Bachelor's degree in Mechatronics Engineering from the same university.
+Hello! I'm **Szymon Parol**, a passionate Mechatronics Engineer with a Master’s degree. I hold a Bachelor's degree in Mechatronics Engineering from the same university.
 
-For the past two years, I've been working as a **Junior Media Engineer**, where I develop workflows using IBM Orchestrator, create web applications in C#, and maintain and test these applications.
+For the past two years, I've been working as a **Media Engineer**, where I develop workflows using IBM Orchestrator, SDVI Rally , create web applications in C#, and maintain and test these applications.
 
 ## Skills 💡
 
