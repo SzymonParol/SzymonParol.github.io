@@ -43,7 +43,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 ## Professional Experience 💼
 
-### Junior Media Engineer
+### Media Engineer
 **Iyuno A/S**  
 *05, 2023 – Present*
 
@@ -64,7 +64,7 @@ For the past two years, I've been working as a **Junior Media Engineer**, where 
 
 ### Master of Science in Mechatronics
 **Warsaw University of Technology, Faculty of Mechatronics**  
-*2023 – Present*
+*2023 – 2026*
 
 ### Bachelor of Engineering in Mechatronics
 **Warsaw University of Technology, Faculty of Mechatronics**  
